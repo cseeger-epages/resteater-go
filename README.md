@@ -12,8 +12,19 @@ This is just a simple addition to my [restfool-go](https://github.com/cseeger-ep
 - TLS settings
 - supports additional requests Headers
 
+## Installation
 
-## example
+If you already installed GO on your system and configured it properly than its simply:
+
+```
+go get github.com/cseeger-epages/resteater-go
+```
+
+If not follow [these instructions](https://nats.io/documentation/tutorials/go-install/).
+
+## Usage
+
+### Simple example
 
 ```
 package main
@@ -43,5 +54,9 @@ func main() {
   fmt.Println(resp.StatusCode)
 }
 ```
+
+### more examples
+
+see [examples](https://github.com/cseeger-epages/resteater-go/tree/master/examples) for some more usage examples
 
 Dont eat the reaper ?
