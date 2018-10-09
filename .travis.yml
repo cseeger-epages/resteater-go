@@ -25,7 +25,6 @@ script:
   - golint ./examples/*.go
   - go test -v -race *.go
   - go vet -v *.go
-  - go vet -v ./examples/*.go
   - gocyclo *.go
   - gocyclo ./examples/*.go
   - ineffassign *.go
